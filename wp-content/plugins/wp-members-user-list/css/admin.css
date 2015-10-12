@@ -1,0 +1,13 @@
+li {
+	padding: 4px 0;
+}
+
+label {
+	float: left;
+	width: 140px;
+	margin 4px 0 0 0;
+}
+
+.ul-update {
+	margin-left: 140px;
+}

@@ -1,0 +1,217 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2013 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Insigne Design
+ * License URL: http://www.fontspring.com/fflicense/insigne
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'quatie_norm_boldnorm_bold';
+    src: url('QuatieNormBold-webfont.eot');
+    src: url('QuatieNormBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormBold-webfont.woff') format('woff'),
+         url('QuatieNormBold-webfont.ttf') format('truetype'),
+         url('QuatieNormBold-webfont.svg#quatie_norm_mediumnorm_medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_bold_italnormBdIt';
+    src: url('QuatieNormBoldItalic-webfont.eot');
+    src: url('QuatieNormBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormBoldItalic-webfont.woff') format('woff'),
+         url('QuatieNormBoldItalic-webfont.ttf') format('truetype'),
+         url('QuatieNormBoldItalic-webfont.svg#quatie_norm_bold_italnormBdIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_booknorm_book';
+    src: url('QuatieNormBook-webfont.eot');
+    src: url('QuatieNormBook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormBook-webfont.woff') format('woff'),
+         url('QuatieNormBook-webfont.ttf') format('truetype'),
+         url('QuatieNormBook-webfont.svg#quatie_norm_booknorm_book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_book_italnormBkIt';
+    src: url('QuatieNormBookItalic-webfont.eot');
+    src: url('QuatieNormBookItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormBookItalic-webfont.woff') format('woff'),
+         url('QuatieNormBookItalic-webfont.ttf') format('truetype'),
+         url('QuatieNormBookItalic-webfont.svg#quatie_norm_book_italnormBkIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_deminorm_demi';
+    src: url('QuatieNormDemi-webfont.eot');
+    src: url('QuatieNormDemi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormDemi-webfont.woff') format('woff'),
+         url('QuatieNormDemi-webfont.ttf') format('truetype'),
+         url('QuatieNormDemi-webfont.svg#quatie_norm_deminorm_demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_demi_itnormdemiIt';
+    src: url('QuatieNormDemiItalic-webfont.eot');
+    src: url('QuatieNormDemiItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormDemiItalic-webfont.woff') format('woff'),
+         url('QuatieNormDemiItalic-webfont.ttf') format('truetype'),
+         url('QuatieNormDemiItalic-webfont.svg#quatie_norm_demi_itnormdemiIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_exboldnorm_exbold';
+    src: url('QuatieNormExBold-webfont.eot');
+    src: url('QuatieNormExBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormExBold-webfont.woff') format('woff'),
+         url('QuatieNormExBold-webfont.ttf') format('truetype'),
+         url('QuatieNormExBold-webfont.svg#quatie_norm_exboldnorm_exbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_exbold_normexBdIt';
+    src: url('QuatieNormExBoldItalic-webfont.eot');
+    src: url('QuatieNormExBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormExBoldItalic-webfont.woff') format('woff'),
+         url('QuatieNormExBoldItalic-webfont.ttf') format('truetype'),
+         url('QuatieNormExBoldItalic-webfont.svg#quatie_norm_exbold_normexBdIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_lightnorm_light';
+    src: url('QuatieNormLight-webfont.eot');
+    src: url('QuatieNormLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormLight-webfont.woff') format('woff'),
+         url('QuatieNormLight-webfont.ttf') format('truetype'),
+         url('QuatieNormLight-webfont.svg#quatie_norm_lightnorm_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_light_itanormLtIt';
+    src: url('QuatieNormLightItalic-webfont.eot');
+    src: url('QuatieNormLightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormLightItalic-webfont.woff') format('woff'),
+         url('QuatieNormLightItalic-webfont.ttf') format('truetype'),
+         url('QuatieNormLightItalic-webfont.svg#quatie_norm_light_itanormLtIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_mediumnorm_medium';
+    src: url('QuatieNormMedium-webfont.eot');
+    src: url('QuatieNormMedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormMedium-webfont.woff') format('woff'),
+         url('QuatieNormMedium-webfont.ttf') format('truetype'),
+         url('QuatieNormMedium-webfont.svg#quatie_norm_mediumnorm_medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_medium_itnormMdIt';
+    src: url('QuatieNormMediumItalic-webfont.eot');
+    src: url('QuatieNormMediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormMediumItalic-webfont.woff') format('woff'),
+         url('QuatieNormMediumItalic-webfont.ttf') format('truetype'),
+         url('QuatieNormMediumItalic-webfont.svg#quatie_norm_medium_itnormMdIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_regularnormRg';
+    src: url('QuatieNormRegular-webfont.eot');
+    src: url('QuatieNormRegular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormRegular-webfont.woff') format('woff'),
+         url('QuatieNormRegular-webfont.ttf') format('truetype'),
+         url('QuatieNormRegular-webfont.svg#quatie_norm_regularnormRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_regular_inormRgIt';
+    src: url('QuatieNormRegularItalic-webfont.eot');
+    src: url('QuatieNormRegularItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormRegularItalic-webfont.woff') format('woff'),
+         url('QuatieNormRegularItalic-webfont.ttf') format('truetype'),
+         url('QuatieNormRegularItalic-webfont.svg#quatie_norm_regular_inormRgIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_thinnorm_thin';
+    src: url('QuatieNormThin-webfont.eot');
+    src: url('QuatieNormThin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormThin-webfont.woff') format('woff'),
+         url('QuatieNormThin-webfont.ttf') format('truetype'),
+         url('QuatieNormThin-webfont.svg#quatie_norm_thinnorm_thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quatie_norm_thin_italnormThIt';
+    src: url('QuatieNormThinItalic-webfont.eot');
+    src: url('QuatieNormThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('QuatieNormThinItalic-webfont.woff') format('woff'),
+         url('QuatieNormThinItalic-webfont.ttf') format('truetype'),
+         url('QuatieNormThinItalic-webfont.svg#quatie_norm_thin_italnormThIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

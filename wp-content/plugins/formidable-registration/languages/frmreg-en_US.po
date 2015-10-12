@@ -1,0 +1,288 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Formidable Registration v1.08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-11-15 19:30:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: FrmRegAppController.php:119
+#@ frmreg
+msgid "User ID"
+msgstr ""
+
+#: FrmRegAppController.php:178
+#@ frmreg
+msgid "This username is already registered."
+msgstr ""
+
+#: FrmRegAppController.php:188
+#@ frmreg
+msgid "This email address is already registered."
+msgstr ""
+
+#: FrmRegAppController.php:325
+#: FrmRegAppHelper.php:19
+#, php-format
+#@ frmreg
+msgid "Username: %s"
+msgstr ""
+
+#: FrmRegAppController.php:326
+#: FrmRegAppHelper.php:20
+#, php-format
+#@ frmreg
+msgid "Password: %s"
+msgstr ""
+
+#: FrmRegAppController.php:337
+#, php-format
+#@ frmreg
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: FrmRegAppController.php:612
+#: views/registration_options.php:42
+#: widgets/FrmRegLogin.php:15
+#: widgets/FrmRegLogin.php:44
+#@ default
+msgid "Username"
+msgstr ""
+
+#: FrmRegAppController.php:613
+#: views/registration_options.php:63
+#: widgets/FrmRegLogin.php:15
+#: widgets/FrmRegLogin.php:45
+#@ default
+msgid "Password"
+msgstr ""
+
+#: FrmRegAppController.php:613
+#: widgets/FrmRegLogin.php:16
+#: widgets/FrmRegLogin.php:45
+#@ default
+msgid "Remember Me"
+msgstr ""
+
+#: FrmRegAppController.php:614
+#: widgets/FrmRegLogin.php:16
+#: widgets/FrmRegLogin.php:46
+#@ default
+msgid "Login"
+msgstr ""
+
+#: FrmRegAppHelper.php:18
+#@ frmreg
+msgid "Your username and password"
+msgstr ""
+
+#: views/_usermeta_row.php:4
+#@ frmreg
+msgid "Add User Meta"
+msgstr ""
+
+#: views/_usermeta_row.php:6
+#@ frmreg
+msgid "from"
+msgstr ""
+
+#: views/_usermeta_row.php:8
+#@ frmreg
+msgid "Select Field"
+msgstr ""
+
+#: views/registration_options.php:6
+#@ frmreg
+msgid "Registration"
+msgstr ""
+
+#: views/registration_options.php:7
+#@ frmreg
+msgid "Register users who submit this form"
+msgstr ""
+
+#: views/registration_options.php:11
+#@ frmreg
+msgid "Automatically Log In"
+msgstr ""
+
+#: views/registration_options.php:12
+#@ frmreg
+msgid "Automatically log in users who submit this form"
+msgstr ""
+
+#: views/registration_options.php:16
+#@ frmreg
+msgid "User Email"
+msgstr ""
+
+#: views/registration_options.php:33
+#@ frmreg
+msgid "You need an \"email\" field type in your form"
+msgstr ""
+
+#: views/registration_options.php:44
+#@ frmreg
+msgid "Automatically Generate from Email"
+msgstr ""
+
+#: views/registration_options.php:45
+#@ frmreg
+msgid "Use Full Email Address"
+msgstr ""
+
+#: views/registration_options.php:65
+#@ frmreg
+msgid "Automatically Generate"
+msgstr ""
+
+#: views/registration_options.php:83
+#@ default
+msgid "Name"
+msgstr ""
+
+#: views/registration_options.php:84
+#@ default
+msgid "First Name"
+msgstr ""
+
+#: views/registration_options.php:86
+#: views/registration_options.php:103
+#@ default
+msgid "None"
+msgstr ""
+
+#: views/registration_options.php:101
+#@ default
+msgid "Last Name"
+msgstr ""
+
+#: views/registration_options.php:121
+#@ frmreg
+msgid "Display Name"
+msgstr ""
+
+#: views/registration_options.php:124
+#@ frmreg
+msgid "Same as Username"
+msgstr ""
+
+#: views/registration_options.php:125
+#@ frmreg
+msgid "First Last (as selected above)"
+msgstr ""
+
+#: views/registration_options.php:126
+#@ frmreg
+msgid "Last First (as selected above)"
+msgstr ""
+
+#: views/registration_options.php:144
+#@ frmreg
+msgid "User Role"
+msgstr ""
+
+#: views/registration_options.php:149
+#@ frmreg
+msgid "User Meta"
+msgstr ""
+
+#: views/registration_options.php:164
+#@ frmreg
+msgid "Delay Email"
+msgstr ""
+
+#: views/registration_options.php:165
+#@ frmreg
+msgid "Do not send the registration email until payment is completed"
+msgstr ""
+
+#: views/registration_options.php:170
+#@ frmreg
+msgid "Registration Email Subject"
+msgstr ""
+
+#: views/registration_options.php:176
+#@ frmreg
+msgid "Registration Email Message"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:6
+#@ frmreg
+msgid "Add a login form anywhere on your site"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:7
+#@ frmreg
+msgid "Login Form"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:49
+#@ default
+msgid "Title"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:52
+#@ frmreg
+msgid "Display fields in"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:54
+#@ frmreg
+msgid "multiple rows"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:55
+#@ frmreg
+msgid "a single row"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:59
+#@ frmreg
+msgid "Use Formidable Styling"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:62
+#@ frmreg
+msgid "Slide the login area"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:65
+#@ frmreg
+msgid "Include Remember Me checkbox"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:67
+#@ frmreg
+msgid "Username Label"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:70
+#@ frmreg
+msgid "Password Label"
+msgstr ""
+
+#: widgets/FrmRegLogin.php:73
+#@ frmreg
+msgid "Remember Me Label"
+msgstr ""
+
+#: views/registration_options.php:158
+#@ default
+msgid "Add"
+msgstr ""
+

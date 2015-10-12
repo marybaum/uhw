@@ -1,0 +1,113 @@
+/** 
+ * Styles for WP-Members User List Add-on Module 
+ * when using wp-members-2013.css
+ */
+ 
+/** user detail */
+
+#wpmem-ul-list h2 { 
+	padding: 0px; 
+	margin-bottom: 0px;
+	margin-top: -5px;
+}
+#wpmem-ul-list .avatar { 
+	float: right; 
+	margin: -17px -2px 0 0; 
+}
+#wpmem-ul-list .wpmem-ul-user,
+#wpmem-ul-list .wpmem-ul-user-odd { 
+	padding: 10px 15px; 
+	margin: 10px 0;
+}
+#wpmem-ul-list .wpmem-ul-user-odd { 
+	background-color: rgba(247, 245, 231, 0.7); 
+}
+
+
+/** navigation */
+
+#wpmem-ul-nav .wpmem-ul-prev{ float: left; width: 50%; }
+#wpmem-ul-nav .wpmem-ul-next{ float: right; width: 50%; text-align: right; }
+
+
+/** search */
+
+#wpmem_ul_search {
+	width:630px;
+	float:left;
+}
+
+#wpmem_ul_search fieldset {
+	background-color: rgba(247, 245, 231, 0.7);
+	height: 255px;
+	margin-bottom: 40px;
+	margin-top: -50px;
+	padding:15px;
+	border: none;
+}
+#wpmem_ul_search legend {
+	font-family: "Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	margin-top: 50px;
+
+}
+#wpmem_ul_search label.text,
+#wpmem_ul_search label.select{
+	padding-top:11px;
+	float:left;
+	font-family: "Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+	font-size: 115%;
+	line-height: 1.1;
+	color:#666;
+}
+#wpmem_ul_search .form {
+	margin:0;
+	padding:0;
+}
+#wpmem_ul_search .clear {
+	clear:both;
+}
+#wpmem_ul_search .holder {
+	background-color:#fff;
+}
+#wpmem_ul_search .div_text,
+#wpmem_ul_search .div_select {
+	width:360px;
+	float:right;
+	margin:0 -10px 10px 0;
+	padding:5px 0 3px 5px;
+	height:35px;
+}
+#wpmem_ul_search .textbox ,
+#wpmem_ul_search .dropdown {
+	width:96%;
+	padding:3px 5px 3px 5px;
+}
+#wpmem_ul_search .dropdown {
+	border: 2px solid rgb(195, 192, 171);
+	width: 96%;
+}
+#wpmem_ul_search .textbox:focus, #wpmem_ul_search .textbox:hover {
+	background-color:#F0FFE6;
+}
+#wpmem_ul_search .button_div {
+	width:353px;
+	float:right;
+	text-align:right;
+	height:35px;
+	margin-top:3px;
+	padding:5px;
+	white-space:nowrap;
+}
+
+#wpmem_ul_search .noinput{ 
+	height: 32px;
+	padding-top: 4px;
+	padding-left: 6px;
+}
+
+.results-term {
+	font-style: italic;
+}
