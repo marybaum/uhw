@@ -461,7 +461,7 @@ h6 {
     color: #249;
     font-family: 'PaulineRegular', sans-serif;
     line-height: 1.0;
-    margin: 1em 0;
+    margin: 1rem 0;
     padding: 0;
 }
 
@@ -1063,7 +1063,16 @@ Site Header
         margin: 1rem 0;
     }
     
-    .site-header .site-title,
+    .site-header .site-title {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: stretch;
+        height: 14rem;
+        text-indent: -9999px;
+        
+    }
+    
     p.site-title a,
     h1.site-title a {
         background: url(images/logo.png) center 0 no-repeat;
