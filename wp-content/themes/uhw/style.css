@@ -1050,42 +1050,33 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 @media all and (min-width: 0) {
-	
-	.site-header {
-		margin: 3rem 0;
-		padding: 0;
-		text-align: center;
-		z-index: 20;
-	}
-	
-	.site-header .wrap	{
-		background-image: linear-gradient( rgba(0, 102, 51, .8) 0, rgba(255, 255, 255, 0.3) 75%,  rgba(255, 255, 255, 0) 97%);
-		display: grid;
-		grid-template-rows: 6rem 6rem;
-		height: 14rem;
-		margin: 3rem 0 0;
-		position: relative;
-		width: 100%;
-		z-index: 10;
-	}
-	
-	p.site-title a,
-	h1.site-title a {
-		background: url(images/logo.png) 50% 0 no-repeat;
-		height: 6em;
-		position: absolute;
-		top: -1.5em;
-		left: 10vw;
-		right: 10vw;
-		text-indent: -9999px;
-	}
-	
-	p.site-title,
-	p.site-title a{
-		height: 11em;
-		margin: 0;
-		top: -4em;
-	}
+    
+    .site-header {
+        z-index: 40;
+    }
+    
+    .site-header .wrap	{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    
+    .site-header .site-title,
+    p.site-title a,
+    h1.site-title a {
+        background: url(images/logo.png) center 0 no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: stretch;
+        height: 14rem;
+        text-indent: -9999px;
+        width: 60vw;
+        z-index: 55;
+    }
 	
 	.site-header .widget-area	{
 		display: flex;
@@ -2101,12 +2092,16 @@ Media Queries
 
 @media all and (min-width: 84em) {
     
+    header.site-header {
+        margin: 2rem 0;
+    }
+    
     .site-header .title-area {
         display: flex;
         flex-flow: column;
         justify-content: center;
         align-items: flex-end;
-        width: 15vw;
+        width: 14vw;
     }
     
     p.site-title a,
@@ -2118,6 +2113,10 @@ Media Queries
         text-indent: -9999px;
         margin: 2rem 0 0 6vw;
         width: 11vw;
+    }
+    
+    .site-header .widget-area {
+        margin-left: 4vw;
     }
     
 }
