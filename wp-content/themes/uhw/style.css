@@ -907,7 +907,7 @@ Common Classes
     background: none;
     color: #249;
     letter-spacing: 0.1rem;
-    padding: 1em 0 0;
+    padding: 1rem 1rem 0;
     text-transform: uppercase;
 }
 
@@ -1435,7 +1435,16 @@ Content Area
 }
 
 /* Entries
---------------------------------------------- */
+---------------------------------------------
+
+## Archives
+---------------------------------------------*/
+
+.archive-description {
+    margin: 0 1rem;
+}
+
+
 .archiveintro	{
     display: block;
     width: 100%;
@@ -1448,9 +1457,13 @@ Content Area
 }
 
 .archive .breadcrumb {
-    flex: 1 0 100%;
+    margin: 1rem 1rem 0;
 }
 
+/*
+
+## Singles
+-----------------------------------------------*/
 .single .entry {
     width: 100%;
 }
