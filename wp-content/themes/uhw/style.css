@@ -1114,41 +1114,44 @@ Site Header
 	}
 	
 	.site-header .wrap	{
-		background-image: linear-gradient( rgba(0, 102, 51, .8) 0, rgba(255, 255, 255, 0.3) 75%,  rgba(255, 255, 255, 0) 97%);
 		display: flex;
+		flex-flow: row;
 		justify-content: space-between;
 		align-items: flex-start;
 		height: 5em;
-		margin: 3rem 0 0;
+		margin: 1rem 0 0;
 		width: 100%;
 		z-index: 10;
 	}
 	
 	.site-header .title-area {
-		flex: 0 1 20vw;
 		display: flex;
-		flex-flow: column;
-		justify-content: center;
+		flex-flow: row;
+		justify-content: flex-end;
 		align-items: flex-start;
+		margin: 0;
+		width: 20vw;
 	}
 	
 	p.site-title a,
 	h1.site-title a {
-		background: url(images/logo.png) 0 0 no-repeat;
+		background: url(images/logo.png) 50% 0 no-repeat;
 		background-size: contain;
-		height: 3em;
+		height: 14rem;
 		display: flex;
 		text-indent: -9999px;
-		margin: 2rem 0 0;
+		margin: 0;
+		width: 18vw;
 	}
 	
 	.site-header .widget-area	{
 		display: flex;
-		flex-flow: column;
-		justify-content: center;
-		align-items: flex-end;
-		padding: 0;
-		text-align: center;
+		flex-flow: row;
+		justify-content: flex-end;
+		align-items: center;
+		padding: 2rem 0 0;
+		text-align: left;
+		width: 65vw;
 	}
 	
 	.site-header nav li a	    {
