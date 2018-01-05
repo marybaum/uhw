@@ -2100,25 +2100,26 @@ Media Queries
 }
 
 @media all and (min-width: 84em) {
-	
-	.site-header .title-area {
-		flex: 0 1 28vw;
-		display: flex;
-		flex-flow: column;
-		justify-content: center;
-		align-items: flex-end;
-	}
-	
-	p.site-title a,
-	h1.site-title a {
-		background: url(images/logo.png) 0 0 no-repeat;
-		background-size: 20%;
-		height: 14em;
-		display: flex;
-		text-indent: -9999px;
-		margin: 2rem 0 0;
-	}
-	
+    
+    .site-header .title-area {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 15vw;
+    }
+    
+    p.site-title a,
+    h1.site-title a {
+        background: url(images/logo.png) 0 0 no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: flex-end;
+        text-indent: -9999px;
+        margin: 2rem 0 0 6vw;
+        width: 11vw;
+    }
+    
 }
 
 @media all and (min-width: 0) {
